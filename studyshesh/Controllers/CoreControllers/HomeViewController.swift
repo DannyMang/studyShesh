@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct studysheshApp: App {
+struct HomeViewController: App {
     var body: some Scene {
         WindowGroup {
             MainPage()

@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E37102F2B577CC1000DC283 /* studysheshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E37102E2B577CC1000DC283 /* studysheshApp.swift */; };
+		0E37102F2B577CC1000DC283 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E37102E2B577CC1000DC283 /* HomeViewController.swift */; };
 		0E3710312B577CC1000DC283 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3710302B577CC1000DC283 /* MainPage.swift */; };
 		0E3710332B577CC2000DC283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3710322B577CC2000DC283 /* Assets.xcassets */; };
 		0E3710362B577CC2000DC283 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3710352B577CC2000DC283 /* Preview Assets.xcassets */; };
 		0E3710402B577CC2000DC283 /* studysheshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E37103F2B577CC2000DC283 /* studysheshTests.swift */; };
 		0E37104A2B577CC2000DC283 /* studysheshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3710492B577CC2000DC283 /* studysheshUITests.swift */; };
 		0E37104C2B577CC2000DC283 /* studysheshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E37104B2B577CC2000DC283 /* studysheshUITestsLaunchTests.swift */; };
+		0E5027922B58A26400591763 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5027912B58A26400591763 /* ProfileViewController.swift */; };
+		0E5027962B58A2F700591763 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5027952B58A2F700591763 /* SignInController.swift */; };
+		0E5027982B58A34400591763 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5027972B58A34400591763 /* RegistrationController.swift */; };
+		0E50279C2B58A36E00591763 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50279B2B58A36E00591763 /* SearchViewController.swift */; };
+		0E50279E2B58A41A00591763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E50279D2B58A41A00591763 /* Main.storyboard */; };
+		0E5027A02B58A55F00591763 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50279F2B58A55F00591763 /* CameraController.swift */; };
+		0E5027A22B58A78200591763 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5027A12B58A78200591763 /* SettingViewController.swift */; };
+		0E5027A52B58AD0000591763 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5027A42B58AD0000591763 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		0E37102B2B577CC1000DC283 /* studyshesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studyshesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E37102E2B577CC1000DC283 /* studysheshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studysheshApp.swift; sourceTree = "<group>"; };
+		0E37102E2B577CC1000DC283 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0E3710302B577CC1000DC283 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		0E3710322B577CC2000DC283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E3710352B577CC2000DC283 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +52,14 @@
 		0E3710452B577CC2000DC283 /* studysheshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studysheshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3710492B577CC2000DC283 /* studysheshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studysheshUITests.swift; sourceTree = "<group>"; };
 		0E37104B2B577CC2000DC283 /* studysheshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studysheshUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E5027912B58A26400591763 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0E5027952B58A2F700591763 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		0E5027972B58A34400591763 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		0E50279B2B58A36E00591763 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0E50279D2B58A41A00591763 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0E50279F2B58A55F00591763 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		0E5027A12B58A78200591763 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0E5027A42B58AD0000591763 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +110,10 @@
 		0E37102D2B577CC1000DC283 /* studyshesh */ = {
 			isa = PBXGroup;
 			children = (
-				0E37105A2B578B41000DC283 /* oController */,
+				0E5027902B58A1ED00591763 /* Resources */,
+				0E50278F2B58A17D00591763 /* Controllers */,
 				0E3710592B578B30000DC283 /* Model */,
 				0E3710582B578AD2000DC283 /* View */,
-				0E37102E2B577CC1000DC283 /* studysheshApp.swift */,
 				0E3710322B577CC2000DC283 /* Assets.xcassets */,
 				0E3710342B577CC2000DC283 /* Preview Content */,
 			);
@@ -133,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				0E3710302B577CC1000DC283 /* MainPage.swift */,
+				0E50279D2B58A41A00591763 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,11 +161,42 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0E37105A2B578B41000DC283 /* oController */ = {
+		0E50278F2B58A17D00591763 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E5027942B58A2DC00591763 /* Onboarding */,
+				0E5027932B58A2C300591763 /* CoreControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0E5027902B58A1ED00591763 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = oController;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E5027932B58A2C300591763 /* CoreControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E37102E2B577CC1000DC283 /* HomeViewController.swift */,
+				0E50279B2B58A36E00591763 /* SearchViewController.swift */,
+				0E5027912B58A26400591763 /* ProfileViewController.swift */,
+				0E50279F2B58A55F00591763 /* CameraController.swift */,
+				0E5027A42B58AD0000591763 /* CalendarViewController.swift */,
+				0E5027A12B58A78200591763 /* SettingViewController.swift */,
+			);
+			path = CoreControllers;
+			sourceTree = "<group>";
+		};
+		0E5027942B58A2DC00591763 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0E5027952B58A2F700591763 /* SignInController.swift */,
+				0E5027972B58A34400591763 /* RegistrationController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E50279E2B58A41A00591763 /* Main.storyboard in Resources */,
 				0E3710362B577CC2000DC283 /* Preview Assets.xcassets in Resources */,
 				0E3710332B577CC2000DC283 /* Assets.xcassets in Resources */,
 			);
@@ -281,8 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5027922B58A26400591763 /* ProfileViewController.swift in Sources */,
+				0E50279C2B58A36E00591763 /* SearchViewController.swift in Sources */,
+				0E5027A02B58A55F00591763 /* CameraController.swift in Sources */,
+				0E5027A22B58A78200591763 /* SettingViewController.swift in Sources */,
 				0E3710312B577CC1000DC283 /* MainPage.swift in Sources */,
-				0E37102F2B577CC1000DC283 /* studysheshApp.swift in Sources */,
+				0E37102F2B577CC1000DC283 /* HomeViewController.swift in Sources */,
+				0E5027A52B58AD0000591763 /* CalendarViewController.swift in Sources */,
+				0E5027982B58A34400591763 /* RegistrationController.swift in Sources */,
+				0E5027962B58A2F700591763 /* SignInController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
